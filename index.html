@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--main fille css-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--   Swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assests/logo.png" alt="" class="img-fluid">
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#work" class="menu_link">Work</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Portfolio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#testimonial" class="menu_link">Testimonial</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+
+                <ion-icon name="close-outline" class="close_icon"></ion-icon> <!--  ionicons -->
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon> <!--  ionicons -->
+        </div>
+    </header>
+    <main>
+        <!--===== Hero section ======-->
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>Hii Buddy,</h4>
+                    <h1>I'm Punitha Thirupathi <br>
+                        <span class="typed" data-typed-items="Frontend Developer"></span>
+                    </h1>
+                    <p>Learning isn't just a part of the job; it's a passion that drives me forward.</p>
+
+                    <div class="hero_social">
+                        <a href="https://www.linkedin.com/in/punitha-thirupathi-1ab29a253" target="_blank"><ion-icon
+                                name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/Punitha-Thirupathi" target="_blank"><ion-icon
+                                name="logo-github"></ion-icon></a>
+                        <a href="https://wa.me/9942233593" target="_blank" title="Chat on WhatsApp"><ion-icon
+                                name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                    <a href="#about" class="btn">
+                        Read More
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero_img">
+                    <img src="./assests/Home.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!--===== About section ======-->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="./assests/about.png" alt="">
+                </div>
+                <div class="about_content">
+                    <h1><!-- Passionate about clean code, beautiful interfaces --> I'm Punitha Thirupathi</h1>
+                    <p>Passionate and highly motivated frontend developer with a keen interest in creating visually
+                        stunning and user-friendly interfaces.
+                        Knowledge in HTML/CSS, JavaScript, React js and responsive design principles. Possess strong
+                        problem-solving skills and a dedication to delivering high-quality projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== Work section ======-->
+        <section class="work section" id="work">
+            <h2 class="section_title">Work</h2>
+            <div class="work_container container grid">
+                <div class="work_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">Education</a>
+                        </li>
+                        <li>
+                            <a href="#page-2">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#page-3">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#page-4">Awards</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="work_content">
+                    <div class="page-1" class="page one">
+                        <div class="page_heading">Education</div>
+                        <div class="work_wrap">
+                            <div class="work_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="work_wrap-content">
+                                <span class="date">2017-2020</span>
+                                <h4>Bachelor of Computer Science - UG Degree</h4>
+                                <span class="position">Imayam Arts & Science College - Thuraiyur - Bharathidasan
+                                    University</span>
+                                <p> Major : Computer Science <br>
+                                    CGPA : 90%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="work_wrap">
+                            <div class="work_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="work_wrap-content">
+                                <span class="date">2016-2017</span>
+                                <h4> School - Higher Education</h4>
+                                <span class="position">Zamindar Higher Secondary School - Thuraiyur - State Board</span>
+                                <p>Major : Maths , Physics , Chemistry , Computer Science <br>
+                                    CGPA : 80%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="work_wrap">
+                            <div class="work_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="work_wrap-content">
+                                <span class="date">2014-2015</span>
+                                <h4> School - 10th Education</h4>
+                                <span class="position">Zamindar Higher Secondary School - Thuraiyur - State Board</span>
+                                <p>CGPA : 80%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-2" class="page two">
+                        <div class="page_heading">Experience</div>
+                        <div class="work_wrap">
+                            <div class="work_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="work_wrap-content">
+                                <span class="date">2023 - 2024</span>
+                                <h4>Frontent Developer -Internship</h4>
+                                <span class="position">Senchola Technology Solutions</span>
+                                <p>October 2023 - January 2024 (4 months) <br>
+                                    Programming Languages: HTML5, CSS3, Bootstrap, JavaScript <br>
+                                    Frameworks/Libraries : React Js <br>
+                                    Collaboration Tools : VS Code, Git & GitHub <br>
+                                    Soft Skills : Teamwork, Communication, Problem-solving
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="page-3" class=" page three">
+                        <div class="page_heading">Skills</div>
+                        <div class="progressboxs grid">
+                            <div class="progressbox">
+                                <div class="progress_name">
+                                    <span>HTML5</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width : 90%"></div>
+                                </div>
+                            </div>
+                            <div class="progressbox">
+                                <div class="progress_name">
+                                    <span>CSS3</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width :80% "></div>
+                                </div>
+                            </div>
+                            <div class="progressbox">
+                                <div class="progress_name">
+                                    <span>JavaScript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width :80%"></div>
+                                </div>
+                            </div>
+                            <div class="progressbox">
+                                <div class="progress_name">
+                                    <span>React Js</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width:60%"></div>
+                                </div>
+                            </div>
+                            <div class="progressbox">
+                                <div class="progress_name">
+                                    <span>Git & Github</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width :85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-4" class="page four">
+                        <div class="page_heading">Awards</div>
+                        <div class="work_wrap">
+                            <div class="work_wrap-icon">
+                                <ion-icon name="ribbon-outline"></ion-icon>
+                            </div>
+                            <div class="work_wrap-content">
+                                <span class="date">2023 - 2024</span>
+                                <h4>Frontend Developer - Internship Certifications</h4>
+                                <span class="position">Senchola Technology Solutions</span>
+                                <p>October 2023 - January 2024 (3 months) <br>
+                                    Programming Languages: HTML5, CSS3, Bootstrap, JavaScript <br>
+                                    Frameworks/Libraries : React Js <br>
+                                    Collaboration Tools : VS Code, Git & GitHub <br>
+                                    Soft Skills : Teamwork, Communication, Problem-solving
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== Portfolio section ======-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">HTML&CSS</li>
+                    <li data-filter=".filter-card">JavaScript</li>
+                    <li data-filter=".filter-web">React</li>
+                </ul>
+                <div class="portfolio_wrap-conatainer">
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="./assests/portfolio1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Web 3</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="./assests/portfolio3.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="./assests/portfolio4.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 2</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="./assests/portfolio1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Card 1</h4>
+                                <p>Card</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="./assests/portfolio5.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Card 2</h4>
+                                <p>Card</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="./assests/portfolio6.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 3</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--===== Testimonial section ======-->
+        <section class="testimonial section" id="testimonial">
+            <h2 class="section_title">Testimonial</h2>
+            <div class="testimonial_container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
+                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
+                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <div class="img_name">
+                            <img src="./assests/testimonial_img/akshay-saini.jpg" alt="">
+                            <span class="name">Akshay saini</span>
+                            <span class="course">Namaste JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
+                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
+                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <div class="img_name">
+                            <img src="./assests/testimonial_img/tutor-joe.jpg" alt="">
+                            <span class="name">Tutor Joe</span>
+                            <span class="course">React js</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
+                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
+                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <div class="img_name">
+                            <img src="./assests/testimonial_img/w3scl.png" alt="">
+                            <span class="name">W3Schools</span>
+                            <span class="course">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
+                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
+                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <div class="img_name">
+                            <img src="./assests/testimonial_img/codevolution.png" alt="">
+                            <span class="name">CodeVolution</span>
+                            <span class="course">React Js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== contact  section ======-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder=" Your Name">
+                        <input type="email" placeholder="Your Email">
+                    </div>
+                    <input type="password" placeholder="Password">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <a href="#" class="btn">Send Message
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--======== Footer ==========-->
+        <div class="footer_bg">
+            <div class="footer_container container">
+                <div class="main_footer">
+                    <div class="footer_social">
+                        <a href="https://www.linkedin.com/in/punitha-thirupathi-1ab29a253" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Punitha-Thirupathi" target="_blank"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://wa.me/9942233593" target="_blank" title="Chat on WhatsApp"><i
+                                class='bx bxl-whatsapp'></i></a>
+                    </div>
+                    <h3>Punitha Thirupathi</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, officiis earum repellat et
+                        error vitae excepturi provident minima, voluptas cumque esse dolorum, autem consequuntur! Sed
+                        natus eveniet error quibusdam fugiat?</p>
+                </div>
+                <div class="footer_copy">&#169; Punitha Thirupathi. All right reserved</div>
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+<!--=== swiper js === -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--=== mixiitup js === -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
+    integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- ===typed js=== -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!--=== Ionicons ==== -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- main script -->
+<script src="./main.js"></script>
+
+</html>
