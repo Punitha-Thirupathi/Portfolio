@@ -11,6 +11,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--   Swiper js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--  Animated Link - AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -29,10 +31,10 @@
                     <a href="#about" class="menu_link">About</a>
                 </li>
                 <li class="menu_item">
-                    <a href="#work" class="menu_link">Work</a>
+                    <a href="#education" class="menu_link">Educations</a>
                 </li>
                 <li class="menu_item">
-                    <a href="#portfolio" class="menu_link">Portfolio</a>
+                    <a href="#project" class="menu_link">Projects</a>
                 </li>
                 <li class="menu_item">
                     <a href="#testimonial" class="menu_link">Testimonial</a>
@@ -50,14 +52,14 @@
         <!--===== Hero section ======-->
         <section class="hero section" id="hero">
             <div class="hero_container container grid">
-                <div class="hero_content">
+                <div class="hero_content" data-aos="fade-down">
                     <h4>Hii Buddy,</h4>
                     <h1>I'm Punitha Thirupathi <br>
                         <span class="typed" data-typed-items="Frontend Developer"></span>
                     </h1>
                     <p>Learning isn't just a part of the job; it's a passion that drives me forward.</p>
 
-                    <div class="hero_social">
+                    <div class="hero_social" data-aos="fade-down" data-aos-delay="500">
                         <a href="https://www.linkedin.com/in/punitha-thirupathi-1ab29a253" target="_blank"><ion-icon
                                 name="logo-linkedin"></ion-icon></a>
                         <a href="https://github.com/Punitha-Thirupathi" target="_blank"><ion-icon
@@ -65,25 +67,25 @@
                         <a href="https://wa.me/9942233593" target="_blank" title="Chat on WhatsApp"><ion-icon
                                 name="logo-whatsapp"></ion-icon></a>
                     </div>
-                    <a href="#about" class="btn">
+                    <a href="#about" class="btn" data-aos="fade-down" data-aos-delay="500">
                         Read More
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </a>
                 </div>
-                <div class="hero_img">
+                <div class="hero_img" data-aos="fade-down" data-aos-delay="700">
                     <img src="./assests/Home.png" alt="" class="img-fluid">
                 </div>
             </div>
         </section>
 
         <!--===== About section ======-->
-        <section class="about section" id="about">
+        <section class="about section" id="about" data-aos="fade-down">
             <h2 class="section_title">About Me</h2>
             <div class="about_container container grid">
-                <div class="about_img">
+                <div class="about_img" data-aos="fade-down" data-aos-delay="500">
                     <img src="./assests/about.png" alt="">
                 </div>
-                <div class="about_content">
+                <div class="about_content" data-aos="fade-down" data-aos-delay="500">
                     <h1><!-- Passionate about clean code, beautiful interfaces --> I'm Punitha Thirupathi</h1>
                     <p>Passionate and highly motivated frontend developer with a keen interest in creating visually
                         stunning and user-friendly interfaces.
@@ -94,11 +96,11 @@
             </div>
         </section>
 
-        <!--===== Work section ======-->
-        <section class="work section" id="work">
-            <h2 class="section_title">Work</h2>
-            <div class="work_container container grid">
-                <div class="work_tabs">
+        <!--===== Educations section ======-->
+        <section class="education section" id="education" data-aos="fade-down">
+            <h2 class="section_title">Educations</h2>
+            <div class="education_container container grid">
+                <div class="education_tabs" data-aos="fade-right">
                     <ul>
                         <li>
                             <a href="#page-1" class="current">Education</a>
@@ -114,14 +116,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="work_content">
+                <div class="education_content" data-aos="fade-down" data-aos-delay="500">
                     <div class="page-1" class="page one">
                         <div class="page_heading">Education</div>
-                        <div class="work_wrap">
-                            <div class="work_wrap-icon">
+                        <div class="education_wrap">
+                            <div class="education_wrap-icon">
                                 <ion-icon name="school-outline"></ion-icon>
                             </div>
-                            <div class="work_wrap-content">
+                            <div class="education_wrap-content">
                                 <span class="date">2017-2020</span>
                                 <h4>Bachelor of Computer Science - UG Degree</h4>
                                 <span class="position">Imayam Arts & Science College - Thuraiyur - Bharathidasan
@@ -131,11 +133,11 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="work_wrap">
-                            <div class="work_wrap-icon">
+                        <div class="education_wrap" data-aos="fade-down" data-aos-delay="500">
+                            <div class="education_wrap-icon">
                                 <ion-icon name="school-outline"></ion-icon>
                             </div>
-                            <div class="work_wrap-content">
+                            <div class="education_wrap-content">
                                 <span class="date">2016-2017</span>
                                 <h4> School - Higher Education</h4>
                                 <span class="position">Zamindar Higher Secondary School - Thuraiyur - State Board</span>
@@ -144,11 +146,11 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="work_wrap">
-                            <div class="work_wrap-icon">
+                        <div class="education_wrap" data-aos="fade-down" data-aos-delay="600">
+                            <div class="education_wrap-icon">
                                 <ion-icon name="school-outline"></ion-icon>
                             </div>
-                            <div class="work_wrap-content">
+                            <div class="education_wrap-content">
                                 <span class="date">2014-2015</span>
                                 <h4> School - 10th Education</h4>
                                 <span class="position">Zamindar Higher Secondary School - Thuraiyur - State Board</span>
@@ -157,13 +159,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="page-2" class="page two">
+                    <div class="page-2" class="page two" data-aos="fade-down">
                         <div class="page_heading">Experience</div>
-                        <div class="work_wrap">
-                            <div class="work_wrap-icon">
+                        <div class="education_wrap">
+                            <div class="education_wrap-icon">
                                 <ion-icon name="briefcase-outline"></ion-icon>
                             </div>
-                            <div class="work_wrap-content">
+                            <div class="education_wrap-content">
                                 <span class="date">2023 - 2024</span>
                                 <h4>Frontent Developer -Internship</h4>
                                 <span class="position">Senchola Technology Solutions</span>
@@ -177,7 +179,7 @@
                         </div>
 
                     </div>
-                    <div class="page-3" class=" page three">
+                    <div class="page-3" class=" page three" data-aos="fade-down">
                         <div class="page_heading">Skills</div>
                         <div class="progressboxs grid">
                             <div class="progressbox">
@@ -227,13 +229,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="page-4" class="page four">
+                    <div class="page-4" class="page four" data-aos="fade-down">
                         <div class="page_heading">Awards</div>
-                        <div class="work_wrap">
-                            <div class="work_wrap-icon">
+                        <div class="education_wrap">
+                            <div class="education_wrap-icon">
                                 <ion-icon name="ribbon-outline"></ion-icon>
                             </div>
-                            <div class="work_wrap-content">
+                            <div class="education_wrap-content">
                                 <span class="date">2023 - 2024</span>
                                 <h4>Frontend Developer - Internship Certifications</h4>
                                 <span class="position">Senchola Technology Solutions</span>
@@ -250,110 +252,400 @@
             </div>
         </section>
 
-        <!--===== Portfolio section ======-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section_title">Portfolio</h2>
-            <div class="portfolio_container container">
-                <ul class="portfolio_filters">
+        <!--===== Projects section ======-->
+        <section class="project section" id="project" data-aos="fade-down">
+            <h2 class="section_title">Projects</h2>
+            <div class="project_container container">
+                <ul class="project_filters">
                     <li data-filter="*" class="filter-active">All</li>
                     <li data-filter=".filter-app">HTML&CSS</li>
                     <li data-filter=".filter-card">JavaScript</li>
                     <li data-filter=".filter-web">React</li>
                 </ul>
-                <div class="portfolio_wrap-conatainer">
-                    <div class="portfolio_item filter-web">
-                        <div class="portfolio_wrap">
+                <div class="project_wrap-conatainer">
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
                             <img src="./assests/portfolio1.png" alt="" class="img-fluid">
-                            <div class="portfolio_info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio_links">
-                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
-                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                            <div class="project_info">
+                                <h4>Currency Calculator</h4>
+                                <p>Integrated with a currency exchange rate API to fetch real-time exchange rates and
+                                    perform accurate currency conversions.
+                                    Utilized React state management to update currency conversion instantly upon user
+                                    input changes.
+                                    Designed the application with reusable React components to maintain code cleanliness
+                                    and modularity.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Currency-Converter"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href="https://iridescent-starship-1d2148.netlify.app" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio_item filter-app">
-                        <div class="portfolio_wrap">
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio2.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Weather-App</h4>
+                                <p>Integrated with a weather API to fetch real-time weather data based on user input.
+                                    Implemented features for displaying current weather conditions, temperature, and
+                                    forecasts.
+                                    Utilized responsive design principles to ensure compatibility across various
+                                    devices.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Weather-App"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://cheerful-syrniki-c16e3d.netlify.app" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
                             <img src="./assests/portfolio3.png" alt="" class="img-fluid">
-                            <div class="portfolio_info">
-                                <h4>App 1</h4>
-                                <p>App</p>
-                                <div class="portfolio_links">
-                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
-                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                            <div class="project_info">
+                                <h4>BMI-Calculator</h4>
+                                <p>Implemented a user-friendly interface allowing users to input their height and weight
+                                    to calculate their BMI.
+                                    Utilized React state management to update BMI calculation instantly upon user input
+                                    changes.
+                                    Designed the application with reusable React components to maintain code cleanliness
+                                    and modularity.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/BMI-Calculator"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://bright-semolina-b03726.netlify.app" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio_item filter-app">
-                        <div class="portfolio_wrap">
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
                             <img src="./assests/portfolio4.png" alt="" class="img-fluid">
-                            <div class="portfolio_info">
-                                <h4>App 2</h4>
-                                <p>App</p>
-                                <div class="portfolio_links">
-                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
-                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                            <div class="project_info">
+                                <h4>React-FAQs </h4>
+                                <p> Designed the application with reusable React components to maintain code cleanliness
+                                    and modularity</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/React--FAQs"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://stirring-selkie-cd45f8.netlify.app/" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio_item filter-card">
-                        <div class="portfolio_wrap">
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
                             <img src="./assests/portfolio1.png" alt="" class="img-fluid">
-                            <div class="portfolio_info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
-                                <div class="portfolio_links">
-                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
-                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                            <div class="project_info">
+                                <h4>CSS-Task</h4>
+                                <p>Designed a visually appealing and cohesive user interface with modern CSS styling,
+                                    including typography, colors, and spacing.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/CSS-Task" target="_blank"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/CSS-Task" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio_item filter-card">
-                        <div class="portfolio_wrap">
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio2.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Order-summary-card</h4>
+                                <p>Developed an order summary card component using HTML and CSS. The task aimed to
+                                    demonstrate proficiency in creating responsive and visually appealing UI components
+                                    for displaying order information.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/HTML-CSS-Order-summary-card"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://gorgeous-macaron-409c9f.netlify.app" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio4.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>React-Calendar</h4>
+                                <p>Implemented a dynamic calendar grid displaying days, weeks, and months.
+                                    Enabled users to navigate between months and years effortlessly.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/React-Calendar"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://tourmaline-concha-7ecd83.netlify.app" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
                             <img src="./assests/portfolio5.png" alt="" class="img-fluid">
-                            <div class="portfolio_info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <div class="portfolio_links">
-                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
-                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                            <div class="project_info">
+                                <h4>Fetch-Api-Task</h4>
+                                <p>Integrated with a public API that provides a collection of data.Utilized asynchronous
+                                    JavaScript (async/await or promises) to handle API requests and responses
+                                    efficiently.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Fetch-Api-Task"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://comforting-tarsier-9a8be0.netlify.app/" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio_item filter-app">
-                        <div class="portfolio_wrap">
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
                             <img src="./assests/portfolio6.png" alt="" class="img-fluid">
-                            <div class="portfolio_info">
-                                <h4>App 3</h4>
-                                <p>App</p>
-                                <div class="portfolio_links">
-                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
-                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                            <div class="project_info">
+                                <h4>Form_Validation_React
+                                </h4>
+                                <p>Implemented form fields for users to input their personal information such as name,
+                                    email, password, etc.
+                                    Validated form inputs in real-time using React state and conditional rendering to
+                                    provide instant feedback to users on input errors.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Form_Validation_React"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://playful-cucurucho-d8f7cf.netlify.app/" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio1.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>React_CRUD_Operations</h4>
+                                <p>Developed a CRUD operations web application using React.js to perform Create, Read,
+                                    Update, and Delete operations on a collection of data.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/React_CRUD_Operations"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://glowing-nougat-5963fc.netlify.app/" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio4.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>HTML-Task</h4>
+                                <p>Structured the landing page layout using HTML5 semantic elements. just starting level
+                                    of learn to create the task.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/HTML-Task" target="_blank"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/HTML-Task" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio5.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Stats-preview-card-component</h4>
+                                <p>Designed a visually appealing and cohesive user interface with modern CSS styling,
+                                    including typography, colors, and spacing.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/HTML-CSS-Stats-preview-card-component"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://strong-biscotti-f0a894.netlify.app" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio6.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>3-column-preview-card-component</h4>
+                                <p>Developed a responsive 3-column preview card component using HTML and CSS. The
+                                    project aimed to showcase proficiency in creating visually appealing and functional
+                                    UI components for displaying content..</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/3-column-preview-card-component"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/3-column-preview-card-component"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio1.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>QR-code-component</h4>
+                                <p>Developed a QR code component using HTML and CSS only. The project aimed to
+                                    demonstrate creativity and proficiency in creating visually appealing UI components
+                                    without relying on JavaScript or external libraries.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/QR-code-component"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/QR-code-component"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio2.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Blog-preview-card</h4>
+                                <p>Designed an elegant and visually engaging blog preview card layout using HTML
+                                    elements and CSS styling.
+                                    Implemented responsive design principles to ensure the blog preview card adapts
+                                    seamlessly to different screen sizes and devices.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Blog-preview-card"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/Blog-preview-card"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-card">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio1.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Interactive-pricing-component</h4>
+                                <p>Designed an engaging and interactive pricing component layout using HTML elements and
+                                    CSS styling.
+                                    Implemented responsive design principles to ensure the pricing component adapts
+                                    seamlessly to different screen sizes and devices.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/-Interactive-pricing-component"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/-Interactive-pricing-component"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio5.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Profile-card-component</h4>
+                                <p>Designed a modern and visually engaging profile card layout using HTML elements and
+                                    CSS styling.
+                                    Implemented responsive design principles to ensure the profile card adapts
+                                    seamlessly to different screen sizes and devices.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Profile-card-component"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/Profile-card-component"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-app">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio6.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Social-links-profile</h4>
+                                <p>Included customizable social links icons and buttons for easy navigation to various
+                                    social media platforms.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Social-links-profile"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/Social-links-profile"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-card">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio2.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Age-Calculator</h4>
+                                <p>Developed an Age Calculator application using JavaScript. The project aimed to
+                                    showcase proficiency in JavaScript programming and solving real-world problems such
+                                    as calculating age based on the input date.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Age-Calculator"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/Age-Calculator/"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-card">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio3.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Advice-generator-app
+                                </h4>
+                                <p>Developed an Advice Generator application using JavaScript. The project aimed to
+                                    create a fun and interactive tool that provides users with random advice or wisdom
+                                    upon request.</p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Advice-generator-app"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/Advice-generator-app"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_item filter-card">
+                        <div class="project_wrap">
+                            <img src="./assests/portfolio4.png" alt="" class="img-fluid">
+                            <div class="project_info">
+                                <h4>Digital-Clock</h4>
+                                <p>Implemented a user-friendly interface to display the digital clock with hours,
+                                    minutes, and seconds.
+                                    Utilized JavaScript Date object to retrieve and update the current time dynamically.
+                                </p>
+                                <div class="project_links">
+                                    <a href="https://github.com/Punitha-Thirupathi/Digital-Clock-Using-Javascript"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://punitha-thirupathi.github.io/Digital-Clock-Using-Javascript"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
         </section>
 
         <!--===== Testimonial section ======-->
-        <section class="testimonial section" id="testimonial">
+        <section class="testimonial section" id="testimonial" data-aos="fade-down">
             <h2 class="section_title">Testimonial</h2>
             <div class="testimonial_container container swiper">
                 <div class="swiper-wrapper">
                     <div class="testimonial_item swiper-slide">
                         <i class='bx bxs-quote-alt-left'></i>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
-                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
-                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <p>I had the pleasure of learning from Akshay Saini, and I must say, his teaching style is truly
+                            remarkable. He has a unique talent for breaking down complex programming concepts into
+                            simple and easy-to-understand explanations. Through his engaging tutorials,Thanks to
+                            I've gained a solid foundation in programming and have grown my skills significantly. He is
+                            undoubtedly a fantastic educator.</p>
                         <div class="img_name">
                             <img src="./assests/testimonial_img/akshay-saini.jpg" alt="">
                             <span class="name">Akshay saini</span>
@@ -362,9 +654,11 @@
                     </div>
                     <div class="testimonial_item swiper-slide">
                         <i class='bx bxs-quote-alt-left'></i>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
-                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
-                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <p> Tutor Joes, teaching style is outstanding. He has a remarkable talent for making React.js
+                            concepts easy to understand and accessible to learners of all levels. Through his engaging
+                            tutorials, I found myself grasping complex React.js concepts with ease. I highly recommend
+                            Tutor Joes to anyone looking to dive into React.js or enhance
+                            their programming knowledge. He is an exceptional educator!</p>
                         <div class="img_name">
                             <img src="./assests/testimonial_img/tutor-joe.jpg" alt="">
                             <span class="name">Tutor Joe</span>
@@ -373,9 +667,12 @@
                     </div>
                     <div class="testimonial_item swiper-slide">
                         <i class='bx bxs-quote-alt-left'></i>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
-                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
-                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <p>W3Schools has been an invaluable platform for expanding my knowledge and skills. The
+                            comprehensive tutorials and resources provided by W3Schools have been instrumental in my
+                            growth as a developer.The easy-to-understand explanations, interactive examples, and
+                            hands-on
+                            exercises make learning enjoyable and effective. I highly recommend W3Schools to anyone
+                            looking to learn and grow in the field of technology.</p>
                         <div class="img_name">
                             <img src="./assests/testimonial_img/w3scl.png" alt="">
                             <span class="name">W3Schools</span>
@@ -384,9 +681,12 @@
                     </div>
                     <div class="testimonial_item swiper-slide">
                         <i class='bx bxs-quote-alt-left'></i>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorem laboriosam minus
-                            deserunt illum facilis obcaecati earum, nesciunt corporis deleniti culpa aut ex tenetur
-                            accusamus beatae. Minima earum fugiat neque!</p>
+                        <p>Codevolution has been an invaluable platform for me to expand my knowledge and skills in
+                            programming. The high-quality tutorials and in-depth explanations provided by Codevolution
+                            have played a crucial role in my growth as a developer. Whether I'm learning a new
+                            technology, exploring advanced concepts,
+                            Codevolution's tutorials have consistently delivered comprehensive and insightful content.
+                        </p>
                         <div class="img_name">
                             <img src="./assests/testimonial_img/codevolution.png" alt="">
                             <span class="name">CodeVolution</span>
@@ -397,9 +697,9 @@
             </div>
         </section>
         <!--===== contact  section ======-->
-        <section class="contact section" id="contact">
+        <section class="contact section" id="contact" data-aos="fade-down">
             <h2 class="section_title">Contact Me</h2>
-            <div class="contact_container container">
+            <div class="contact_container container" data-aos="fade-down" data-aos-delay="500">
                 <div class="contact_content">
                     <div class="inputs">
                         <input type="text" placeholder=" Your Name">
@@ -407,7 +707,7 @@
                     </div>
                     <input type="password" placeholder="Password">
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <a href="#" class="btn">Send Message
+                    <a href="#" class="btn" data-aos="fade-right" data-aos-delay="600">Send Message
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </a>
                 </div>
@@ -417,7 +717,7 @@
         <div class="footer_bg">
             <div class="footer_container container">
                 <div class="main_footer">
-                    <div class="footer_social">
+                    <div class="footer_social"  data-aos="fade-down" data-aos-delay="700">
                         <a href="https://www.linkedin.com/in/punitha-thirupathi-1ab29a253" target="_blank"><i
                                 class='bx bxl-linkedin'></i></a>
                         <a href="https://github.com/Punitha-Thirupathi" target="_blank"><i
@@ -425,10 +725,8 @@
                         <a href="https://wa.me/9942233593" target="_blank" title="Chat on WhatsApp"><i
                                 class='bx bxl-whatsapp'></i></a>
                     </div>
-                    <h3>Punitha Thirupathi</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, officiis earum repellat et
-                        error vitae excepturi provident minima, voluptas cumque esse dolorum, autem consequuntur! Sed
-                        natus eveniet error quibusdam fugiat?</p>
+                    <h3 data-aos="fade-down" data-aos-delay="800">Punitha Thirupathi</h3>
+                    <p data-aos="fade-down" data-aos-delay="900">Learning isn't just a part of the job; it's a passion that drives me forward.</p>
                 </div>
                 <div class="footer_copy">&#169; Punitha Thirupathi. All right reserved</div>
             </div>
@@ -454,5 +752,12 @@
 
 <!-- main script -->
 <script src="./main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: false,
+    });
+</script>
 
 </html>

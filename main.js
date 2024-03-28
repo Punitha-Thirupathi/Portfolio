@@ -66,12 +66,12 @@ function scrollActive() {
 
 window.addEventListener("scroll", scrollActive);
 
-//work Scroll
+//education Scroll
 
 const pages = document.querySelectorAll(".page");
-const work = document.querySelector(".work");
+const education = document.querySelector(".education");
 
-function workActive() {
+function educationActive() {
   const scrollY = window.pageYOffset;
   /* console.log("scrolling"); */
 
@@ -84,23 +84,23 @@ function workActive() {
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
-        .querySelector(".work_tabs a[href*=" + sectionId + "]")
+        .querySelector(".education_tabs a[href*=" + sectionId + "]")
         .classList.add("current");
     } else {
       document
-        .querySelector(".work_tabs a[href*=" + sectionId + "]")
+        .querySelector(".education_tabs a[href*=" + sectionId + "]")
         .classList.remove("current");
     }
   });
 }
 
-window.addEventListener("scroll", workActive);
+window.addEventListener("scroll", educationActive);
 
-//portfolio section
+//project section
 
-let filterItems = document.querySelectorAll(".portfolio_filters li");
+let filterItems = document.querySelectorAll(".project_filters li");
 
-function activePortfolio() {
+function activeProject() {
   filterItems.forEach((el) => {
     el.classList.remove("filter-active");
     this.classList.add("filter-active");
@@ -108,14 +108,14 @@ function activePortfolio() {
 }
 
 filterItems.forEach((el) => {
-  el.addEventListener("click", activePortfolio);
+  el.addEventListener("click", activeProject);
 });
 
-//Mixitup js - porfolio
+//Mixitup js - project
 
-let mixerPortfolio = mixitup(".portfolio_wrap-conatainer", {
+let mixerProject = mixitup(".project_wrap-conatainer", {
   selectors: {
-    target: ".portfolio_item",
+    target: ".project_item",
   },
   animation: {
     duration: 300,
